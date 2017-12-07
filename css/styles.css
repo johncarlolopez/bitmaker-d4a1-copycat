@@ -4,11 +4,22 @@ html {
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
+  border: 0;
 }
 header {
   background-color: #06D6A0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+h1 {
+  color: white;
+  font-size: 0.95em;
+}
+h3 {
+  margin: 1em 0;
 }
 ul {
   list-style: none;
@@ -21,4 +32,31 @@ ul > li {
 nav {
   display: flex;
   align-items: center;
+}
+img {
+  width: 100%;
+}
+section.mainbanner {
+  background-color: darkblue;
+  display: flex;
+  justify-content: space-between;
+}
+section.mainbanner div {
+  display: inline-block;
+}
+.mainbannerleft {
+  width: 60%;
+}
+.mainbannerright {
+  width: 40%;
+}
+div.mainbannerright > span {
+  display: block;
+}
+section.cats {
+  background-color: gold;
+  padding: 2em 1em;
+}
+section.products {
+  padding: 2em 1em;
 }
