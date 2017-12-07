@@ -14,12 +14,22 @@ header {
   align-items: center;
   padding: 1em;
 }
+main {
+  width:  60%;
+  margin: auto;
+}
 h1 {
   color: white;
   font-size: 0.95em;
 }
+h2 {
+  color: white;
+}
 h3 {
   margin: 1em 0;
+}
+h4 {
+  color: white;
 }
 ul {
   list-style: none;
@@ -37,7 +47,7 @@ img {
   width: 100%;
 }
 section.mainbanner {
-  background-color: darkblue;
+  background-color: #26547C;
   display: flex;
   justify-content: space-between;
 }
@@ -59,4 +69,24 @@ section.cats {
 }
 section.products {
   padding: 2em 1em;
+}
+.catcontainer {
+  /* flex not needed
+  #EF476F
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;*/
+}
+.catimage {
+  width: 32%;
+  height: 32%;
+  border: 0.2em solid black;
+  margin: 0.2em;
+}
+section.last {
+  background-color: #26547C;
+}
+div.headercontainer {
+  display: flex;
+  justify-content: space-between;
 }
